@@ -1,0 +1,90 @@
+@font-face {
+    font-family: MASQUE;
+    src: url('MASQUE.ttf');
+}
+@font-face {
+    font-family: Mimi-Demo;
+    src: url('Mimi-Demo.ttf');
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: white;
+}
+
+/* NAVIGATION BAR */
+
+#maximum{
+    position: relative;
+    font-family: Masque;
+    font-size: 45px;
+    left:-30px;
+}
+
+#primary{
+    display:flex;
+    position:relative;
+    justify-content: center;
+    font-family: Mimi-Demo;
+    font-size: 30px;
+    text-decoration: none;
+    background-position: 5px;
+    top:15px;
+}
+
+#primary:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
+
+ul{
+    position: -webkit-sticky;
+    position: sticky;
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    background-color: #DC0C0C;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 85px;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+}
+
+/* TOP IMAGE */
+
+.topimg img{
+    display: block;
+}
+
+#img{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* CONTENT */
+
+.content{
+    
+    display:flex;
+    justify-content: center;
+    background-color: rgb(167, 167, 167);
+}
+
+#vidbox{
+    /* width:100%; */
+}
